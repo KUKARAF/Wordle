@@ -1,6 +1,3 @@
-Certainly, here's a README.md file for your Wordle project:
-
-```markdown
 # Wordle Game
 
 Wordle is a word-guessing game where you try to guess a secret word within a limited number of attempts. This project provides a Python implementation of the Wordle game.
