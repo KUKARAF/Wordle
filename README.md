@@ -51,6 +51,3 @@ To play the Wordle game locally, follow these steps:
 ## Contributing
 
 Contributions to this project are welcome! Feel free to open issues or pull requests to suggest improvements or report bugs.
-
-
-```
