@@ -20,5 +20,6 @@ def words_f(spacy_words):
 if __name__ == "__main__": 
     nlp = spacy.load("en_core_web_sm")
     spacy_words = set(nlp.vocab.strings)
-    w = Wordle(words_f(spacy_words), 0 , True)
+    w = Wordle(words_f(spacy_words), 0)
+    #w = Wordle(words_f(spacy_words), 0, True)
     w.play()

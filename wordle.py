@@ -108,7 +108,7 @@ class Wordle:
                 elif str(repr(inp)) == "KEY_ENTER" and len(self.cur_inpt) == len(self.secret_word):
                     break
                     #return cur_inpt
-                elif str(repr(inp)) == "KEY_TAB": 
+                elif str(repr(inp)) == "KEY_TAB" and self.debug: 
                     #cur_inpt=get_word()
                     self.cur_inpt=self.secret_word
                     continue
